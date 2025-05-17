@@ -5,13 +5,35 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
---font01:Verdana, Geneva, Tahoma, sans-serif;
---font02:"Domine", serif;
---font03:"Bebas Neue", sans-serif;
+--font01:  Verdana, Geneva, Tahoma, sans-serif;
+--font02: "Domine", serif;
+--font03: "Bebas Neue", sans-serif;
 
 *{
     padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
     
 
 }
 
+
+
+body{
+    background-color:#6A9FA8;
+}
+
+
+header{
+    background-color: #135876;
+}
+
+
+
+section{
+    background-color: #FCFFDA;
+}
+
+footer{
+    background-color: #135876;
+}
