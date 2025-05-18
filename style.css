@@ -5,9 +5,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+
+:root{
+
 --font01:  Verdana, Geneva, Tahoma, sans-serif;
 --font02: "Domine", serif;
 --font03: "Bebas Neue", sans-serif;
+
+--cor01: #6A9FA8;
+--cor02: #FCFFDA;
+--cor03: #135876;
+
+}
+
+
+
+
 
 *{
     padding: 0px;
@@ -17,16 +30,45 @@
 
 }
 
-
+header{
+    background-color: #135876;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
 
 body{
     background-color:#6A9FA8;
+    
+}
+
+p{
+    font-family: var(--font03);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+h1{
+    font-family: var(--font02);
+    font-size: 3em;
+    text-align: center;
+     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+ h2, h3{
+    font-family: var(--font02);
+    font-size: 1.5em;
+    padding-top: 20px;
+     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 
-header{
-    background-color: #135876;
-}
 
 
 
